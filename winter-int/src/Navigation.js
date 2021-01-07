@@ -1,4 +1,4 @@
-import 'bootswatch/dist/sandstone/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Navbar() {
   return (

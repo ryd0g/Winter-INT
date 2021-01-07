@@ -1,4 +1,4 @@
-import 'bootswatch/dist/sandstone/bootstrap.min.css';
+import 'bootswatch/dist/yeti/bootstrap.min.css';
 import './App.css';
 import React from 'react';
 import { library } from '@fortawesome/fontawesome-svg-core';
