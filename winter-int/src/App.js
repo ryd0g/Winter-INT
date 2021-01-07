@@ -1,3 +1,4 @@
+import 'bootswatch/dist/yeti/bootstrap.min.css';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { library } from '@fortawesome/fontawesome-svg-core';
