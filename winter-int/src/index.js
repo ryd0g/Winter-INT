@@ -6,7 +6,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap';
 import 'bootstrap/dist/js/bootstrap.js';
+// eslint-disable-next-line no-unused-vars
 import $ from 'jquery';
+// eslint-disable-next-line no-unused-vars
 import Popper from 'popper.js';
 
 ReactDOM.render(
