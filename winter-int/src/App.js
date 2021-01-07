@@ -1,8 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './Navigation.js';
-import { Navbar } from 'react-bootstrap';
 
 function App() {
   return (
