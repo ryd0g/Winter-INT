@@ -7,6 +7,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import Navigation from './Navigation.js';
 import Main from './Main.js';
 import Info from './Info.js';
+import CTA from './CTA.js';
 import Footer from './Footer.js';
 
 library.add(fab, faGithub);
@@ -17,6 +18,7 @@ function App() {
       <Navigation />
       <Main />
       <Info />
+      <CTA />
       <Footer />
     </div>
   );

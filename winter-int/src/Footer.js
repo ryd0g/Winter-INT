@@ -7,7 +7,7 @@ import './Footer.css';
 function Footer() {
   return (
     <section id='footer'>
-      <div class='footer bg-primary p-4 text-white'>
+      <div class='footer bg-dark p-4 text-white'>
         &copy; Ryan Lee, Luis Ventura 2020
         <a
           class='btn btn-social-icon btn-github'
