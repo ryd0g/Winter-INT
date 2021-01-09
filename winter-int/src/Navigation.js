@@ -1,4 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 function Navbar() {
   return (
@@ -22,7 +24,12 @@ function Navbar() {
               Home
             </a>
             <a class='dropdown-item' href='#'>
-              New Page
+              <NavLink
+                className='nav-link'
+                activeClassName='nav-link-active'
+                to='/info'>
+                More Info
+              </NavLink>
             </a>
             <a class='dropdown-item' href='#'>
               New Page
@@ -33,10 +40,12 @@ function Navbar() {
       <div class='pull-right ml-auto'>
         <ul class='nav navbar-nav navbar-right'>
           <li class='nav-item navbar-right'>
-            <a class='nav-link' href='#'>
-              <span class='fas fa-user'></span>
+            <NavLink
+              className='nav-link'
+              activeClassName='nav-link-active'
+              to='/signup'>
               Sign Up
-            </a>
+            </NavLink>
           </li>
           <li class='nav-item navbar-right'>
             <a class='nav-link' href='#'>
