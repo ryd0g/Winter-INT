@@ -17,5 +17,14 @@
 .form-inline {
   display: flex;
   flex-direction: column;
+  align-content: center;
   color: black;
+}
+
+.d-flex textarea.form-control {
+  width: 150%;
+  margin: auto;
+}
+textarea {
+  margin-top: 5px;
 }

@@ -23,7 +23,7 @@ function CTA() {
             <textarea
               class='form-control mb-2 mr-sm-2'
               id='message'
-              rows='3'></textarea>
+              rows='4'></textarea>
             <button class='btn btn-dark mb-2' id='submit'>
               Submit
             </button>
