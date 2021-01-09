@@ -17,3 +17,12 @@
 .jumbotron h2 {
   font-weight: lighter;
 }
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  color: gray;
+}
+button {
+  margin: 5px;
+}
