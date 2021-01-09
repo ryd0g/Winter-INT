@@ -24,12 +24,7 @@ function Navbar() {
               Home
             </a>
             <a class='dropdown-item' href='#'>
-              <NavLink
-                className='nav-link'
-                activeClassName='nav-link-active'
-                to='/info'>
-                More Info
-              </NavLink>
+              New Page
             </a>
             <a class='dropdown-item' href='#'>
               New Page
