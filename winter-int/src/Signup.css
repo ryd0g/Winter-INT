@@ -1,0 +1,14 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin-top: 5px;
+  padding-bottom: 5px;
+}
+.form-inline {
+  margin: 10px;
+}
+p {
+  padding-bottom: 8px;
+}
