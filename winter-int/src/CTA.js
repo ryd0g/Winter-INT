@@ -1,6 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './CTA.css';
-import { NavLink } from 'react-router-dom';
 
 function CTA() {
   return (
