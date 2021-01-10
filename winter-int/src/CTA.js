@@ -5,7 +5,6 @@ function CTA() {
   return (
     <section id='CTA'>
       <div class='jumbotron text-center mb-0'>
-        <p class='lead mb-4'>Sign Up Today!</p>
         <div class='d-flex justify-content-center'>
           <form class='form-inline'>
             <label for='message'>Any questions or comments?</label>
