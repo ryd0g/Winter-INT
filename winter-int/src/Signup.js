@@ -1,82 +1,63 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './Signup.css';
 
 function Signup() {
   return (
     <div className='signup'>
-      <form>
-        <div class='form-row'>
-          <div class='col-md-4 mb-3'>
-            <label for='validationDefault01'>First name</label>
-            <input
-              type='text'
-              class='form-control'
-              id='validationDefault01'
-              placeholder='First name'
-              required
-            />
-          </div>
-          <div class='col-md-4 mb-3'>
-            <label for='validationDefault02'>Last name</label>
-            <input
-              type='text'
-              class='form-control'
-              id='validationDefault02'
-              placeholder='Last name'
-              required
-            />
-          </div>
-        </div>
-        <div class='form-row'>
-          <div class='col-md-6 mb-3'>
-            <label for='validationDefault03'>City</label>
-            <input
-              type='text'
-              class='form-control'
-              id='validationDefault03'
-              placeholder='City'
-              required
-            />
-          </div>
-          <div class='col-md-3 mb-3'>
-            <label for='validationDefault04'>State</label>
-            <input
-              type='text'
-              class='form-control'
-              id='validationDefault04'
-              placeholder='State'
-              required
-            />
-          </div>
-          <div class='col-md-3 mb-3'>
-            <label for='validationDefault05'>Zip</label>
-            <input
-              type='text'
-              class='form-control'
-              id='validationDefault05'
-              placeholder='Zip'
-              required
-            />
-          </div>
-        </div>
-        <div class='form-group'>
-          <div class='form-check'>
-            <input
-              class='form-check-input'
-              type='checkbox'
-              value=''
-              id='invalidCheck2'
-              required
-            />
-            <label class='form-check-label' for='invalidCheck2'>
-              Agree to terms and conditions
-            </label>
-          </div>
-        </div>
-        <button class='btn btn-dark' type='submit'>
-          Submit form
-        </button>
-      </form>
+      <div class='d-flex justify-content-center'>
+        <form class='form-inline'>
+          <p>Please Enter Your Information</p>
+          <input
+            type='text'
+            class='form-control mb-2 mr-sm-2'
+            placeholder='First Name'
+          />
+          <input
+            type='text'
+            class='form-control mb-2 mr-sm-2'
+            placeholder='Last Name'
+          />
+          <input
+            type='text'
+            class='form-control mb-2 mr-sm-2'
+            placeholder='Address'
+          />
+          <input
+            type='text'
+            class='form-control mb-2 mr-sm-2'
+            placeholder='Suite/Apt. Number'
+          />
+          <input
+            type='text'
+            class='form-control mb-2 mr-sm-2'
+            placeholder='City'
+          />
+          <input
+            type='text'
+            class='form-control mb-2 mr-sm-2'
+            placeholder='State'
+          />
+          <input
+            type='text'
+            class='form-control mb-2 mr-sm-2'
+            placeholder='Zip'
+          />
+          <input
+            type='text'
+            class='form-control mb-2 mr-sm-2'
+            placeholder='Email'
+          />
+          <input
+            type='text'
+            class='form-control mb-2 mr-sm-2'
+            placeholder='Password'
+          />
+          <button class='btn btn-dark mb-2' id='submit'>
+            Sign Up
+          </button>
+        </form>
+      </div>
     </div>
   );
 }
