@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/winter-int/static/css/main.11cae8ca.chunk.css",
+    "main.js": "/winter-int/static/js/main.d4ac811b.chunk.js",
+    "main.js.map": "/winter-int/static/js/main.d4ac811b.chunk.js.map",
+    "runtime-main.js": "/winter-int/static/js/runtime-main.1568489b.js",
+    "runtime-main.js.map": "/winter-int/static/js/runtime-main.1568489b.js.map",
+    "static/css/2.bc45cb49.chunk.css": "/winter-int/static/css/2.bc45cb49.chunk.css",
+    "static/js/2.74d492b1.chunk.js": "/winter-int/static/js/2.74d492b1.chunk.js",
+    "static/js/2.74d492b1.chunk.js.map": "/winter-int/static/js/2.74d492b1.chunk.js.map",
+    "static/js/3.764ba971.chunk.js": "/winter-int/static/js/3.764ba971.chunk.js",
+    "static/js/3.764ba971.chunk.js.map": "/winter-int/static/js/3.764ba971.chunk.js.map",
+    "index.html": "/winter-int/index.html",
+    "static/css/2.bc45cb49.chunk.css.map": "/winter-int/static/css/2.bc45cb49.chunk.css.map",
+    "static/css/main.11cae8ca.chunk.css.map": "/winter-int/static/css/main.11cae8ca.chunk.css.map",
+    "static/js/2.74d492b1.chunk.js.LICENSE.txt": "/winter-int/static/js/2.74d492b1.chunk.js.LICENSE.txt",
+    "static/media/CTA.css": "/winter-int/static/media/woodbg.d0013189.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1568489b.js",
+    "static/css/2.bc45cb49.chunk.css",
+    "static/js/2.74d492b1.chunk.js",
+    "static/css/main.11cae8ca.chunk.css",
+    "static/js/main.d4ac811b.chunk.js"
+  ]
+}
