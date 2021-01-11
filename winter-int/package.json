@@ -2,7 +2,7 @@
   "name": "winter-int",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ryd0g.github.io/winter-int/",
+  "homepage": "https://ryd0g.github.io/Winter-INT/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
