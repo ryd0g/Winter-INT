@@ -1,0 +1,22 @@
+#custom-intro h2, #custom-intro h5 {
+    text-align: right;
+}
+
+.skills h3, .skills ul {
+    text-align: left;
+}
+
+
+.skills {
+    padding: 3em;
+    background-color: #fcfcfcf3;
+}
+
+.links {
+    padding: 3em;
+    background-color: #fcfcfcd5;
+}
+
+.link-display a {
+    padding: 1em;
+}
