@@ -20,17 +20,19 @@ function Navbar() {
             aria-expanded='true'>
             Menu
           </a>
-          <div class='dropdown-menu' aria-labelledby='dropdownMenuButton'>
+          <ul class='dropdown-menu' aria-labelledby='dropdownMenuButton'>
             <a class='dropdown-item' href='#'>
               Home
             </a>
-            <a class='dropdown-item' href='#'>
-              New Page
-            </a>
-            <a class='dropdown-item' href='#'>
-              New Page
-            </a>
-          </div>
+            <li class='dropdown-item'>
+              <NavLink
+                className='nav-link-dark'
+                activeClassName='nav-link-active'
+                to='/example'>
+                Sample Portfolio
+              </NavLink>
+            </li>
+          </ul>
         </div>
       </div>
       <div class='pull-right ml-auto'>
